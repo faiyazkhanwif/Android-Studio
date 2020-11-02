@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="118dp"
+        android:layout_height="87dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/select"
+        android:textColor="#EC0909"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="102dp"
+        android:layout_height="85dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/your"
+        android:textColor="#4CAF50"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="123dp"
+        android:layout_height="86dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/color"
+        android:textColor="#216EF3"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <CheckBox
+        android:id="@+id/rb1"
+        android:layout_width="178dp"
+        android:layout_height="76dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/red"
+        android:textColor="#EC0909"
+        android:textSize="40sp"
+        android:theme="@style/RBStyle1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <CheckBox
+        android:id="@+id/rb2"
+        android:layout_width="177dp"
+        android:layout_height="77dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/green"
+        android:textColor="#4CAF50"
+        android:textSize="40sp"
+        android:theme="@style/RBStyle2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <CheckBox
+        android:id="@+id/rb3"
+        android:layout_width="133dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/blue"
+        android:textColor="#216EF3"
+        android:textSize="45sp"
+        android:theme="@style/RBStyle3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="213dp"
+        android:layout_height="78dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/selectbtn"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#FFEB3B"
+        app:cornerRadius="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/confeti"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/confeti2"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ColorSelection</string>
+    <string name="select">Select</string>
+    <string name="your">your</string>
+    <string name="color">color</string>
+    <string name="red">RED</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="selectbtn">Select!</string>
+</resources>
