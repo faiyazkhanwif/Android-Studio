@@ -7,4 +7,6 @@
     <string name="green">Green</string>
     <string name="blue">Blue</string>
     <string name="selectbtn">Select!</string>
+    <string name="confetirev">confetirev</string>
+    <string name="confetinorm">confetinorm</string>
 </resources>
