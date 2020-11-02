@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AdditionFunction</string>
+    <string name="add_your_numbers">Add your Numbers!</string>
+    <string name="add">ADD</string>
+</resources>
