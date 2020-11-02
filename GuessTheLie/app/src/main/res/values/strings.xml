@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Two Truth and One Lie</string>
+    <string name="intro">Hello! I am  Faiyaz Khan!</string>
+    <string name="second_intro">Guess the Lie!</string>
+    <string name="q1">I can speak malay.</string>
+    <string name="q2">I do not have any siblings.</string>
+    <string name="q3">I sleep 10 hours a day on average</string>
+    <string name="button_name">Submit!</string>
+    <string name="me_img">me</string>
+</resources>
