@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MultipleActivitiesAndLayout</string>
+    <string name="home">Home</string>
+    <string name="using_linear_layout">Using Linear Layout</string>
+
+    <string name="relativeviewico">RelativeViewico</string>
+    <string name="rldes">Relative layout utilizes relationship between each other and parents to define views position.</string>
+    <string name="relative_layoutbtn">Relative Layout</string>
+
+    <string name="constraintviewico">ConstraintViewico</string>
+    <string name="cldes">Constraint layout needs atleast one horizontal and one vertical constraint to define the views within it.</string>
+    <string name="constraint_layoutbtn">Constraint Layout</string>
+
+    <string name="gridviewico">GridViewico</string>
+    <string name="gldes">Grid layout arranges the views in distributed rows and columns manner.</string>
+    <string name="grid_layoutbtn">Grid Layout</string>
+</resources>
