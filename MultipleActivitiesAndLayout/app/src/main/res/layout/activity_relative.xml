@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+    <TextView
+        android:id="@+id/TVRLtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDBFD7"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/using_relative_layout"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/TVRLtxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVRLtitle"
+        android:fontFamily="serif-monospace"
+        android:text="@string/text_1"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/TVRLtxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVRLtitle"
+        android:layout_toRightOf="@+id/TVRLtxt1"
+        android:fontFamily="serif-monospace"
+        android:padding="15dp"
+        android:text="@string/text_2"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TVRLtxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVRLtxt1"
+        android:layout_alignParentRight="true"
+        android:fontFamily="serif-monospace"
+        android:padding="15dp"
+        android:text="@string/text_3"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/TVRLtxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVRLtxt1"
+        android:layout_toLeftOf="@+id/TVRLtxt3"
+        android:fontFamily="serif-monospace"
+        android:padding="15dp"
+        android:text="@string/text_4"
+        android:textColor="#3F51B5"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

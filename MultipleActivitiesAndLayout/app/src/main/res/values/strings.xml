@@ -14,4 +14,10 @@
     <string name="gridviewico">GridViewico</string>
     <string name="gldes">Grid layout arranges the views in distributed rows and columns manner.</string>
     <string name="grid_layoutbtn">Grid Layout</string>
+
+    <string name="using_relative_layout">This is a Relative Layout page.</string>
+    <string name="text_1">Text #1</string>
+    <string name="text_2">Text #2</string>
+    <string name="text_3">Text #3</string>
+    <string name="text_4">Text #4</string>
 </resources>
