@@ -20,4 +20,6 @@
     <string name="text_2">Text #2</string>
     <string name="text_3">Text #3</string>
     <string name="text_4">Text #4</string>
+    <string name="text_5">Enter Your Name: </string>
+    <string name="back_to_home">Back to Home</string>
 </resources>
