@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +16,15 @@ public class MainActivity extends AppCompatActivity {
     }
     public void RelativeLayoutClicked(View view){
         Intent RLAct = new Intent(this,RelativeActivity.class);
-        startActivity(RLAct);
+        startActivityForResult(RLAct,1);
+    }
+    public void onActivityResult(int requestcode,int resultcode,Intent data){
+        super.onActivityResult(requestcode,resultcode,data);
+        if (requestcode==1){
+            if (resultcode==RESULT_OK){
+                String strName = data.getStringExtra("Name");
+                Toast.makeText(getApplicationContext(),"Welcome Back, "+strName+"!",Toast.LENGTH_LONG).show();
+            }
+        }
     }
 }

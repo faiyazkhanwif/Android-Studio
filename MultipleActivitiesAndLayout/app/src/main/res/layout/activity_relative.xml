@@ -108,6 +108,7 @@
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@id/TVRLtxt5"
         android:fontFamily="monospace"
+        android:onClick="RLBackClicked"
         android:text="@string/back_to_home"
         app:backgroundTint="#3F51B5"
         app:cornerRadius="10dp" />
