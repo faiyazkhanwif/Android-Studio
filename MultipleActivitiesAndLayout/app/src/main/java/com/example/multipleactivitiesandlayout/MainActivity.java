@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         Intent RLAct = new Intent(this,RelativeActivity.class);
         startActivityForResult(RLAct,1);
     }
+    public void ConstraintLayoutClicked(View view){
+        Intent CNSAct = new Intent(this,ConstraintActivity.class);
+        startActivityForResult(CNSAct,1);
+    }
     public void onActivityResult(int requestcode,int resultcode,Intent data){
         super.onActivityResult(requestcode,resultcode,data);
         if (requestcode==1){

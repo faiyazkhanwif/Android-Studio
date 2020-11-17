@@ -22,4 +22,9 @@
     <string name="text_4">Text #4</string>
     <string name="text_5">Enter Your Name: </string>
     <string name="back_to_home">Back to Home</string>
+    <string name="andades">andapic</string>
+    <string name="andbdes">andbpic</string>
+    <string name="andcdes">andcpic</string>
+    <string name="andmaindes">andmainpic</string>
+    <string name="homecns">Home</string>
 </resources>

@@ -117,6 +117,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
+        android:onClick="ConstraintLayoutClicked"
         android:text="@string/constraint_layoutbtn"
         android:textColor="#FFFFFF"
         app:backgroundTint="#3F51B5"
