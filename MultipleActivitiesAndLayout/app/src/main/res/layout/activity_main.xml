@@ -163,6 +163,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
+        android:onClick="GridLayoutClicked"
         android:text="@string/grid_layoutbtn"
         android:textColor="#FFFFFF"
         app:backgroundTint="#3F51B5"

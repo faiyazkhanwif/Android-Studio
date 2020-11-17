@@ -27,4 +27,23 @@
     <string name="andcdes">andcpic</string>
     <string name="andmaindes">andmainpic</string>
     <string name="homecns">Home</string>
+    <string name="cbtn">C</string>
+    <string name="dvbtn">÷</string>
+    <string name="multbtn">×</string>
+    <string name="minbtn">−</string>
+    <string name="addbtn">+</string>
+    <string name="ninebtn">9</string>
+    <string name="eightbtn">8</string>
+    <string name="sevenbtn">7</string>
+    <string name="fivebtn">5</string>
+    <string name="sixbtn">6</string>
+    <string name="fourbtn">4</string>
+    <string name="onebtn">1</string>
+    <string name="twobtn">2</string>
+    <string name="threebtn">3</string>
+    <string name="dotbtn">.</string>
+    <string name="zerobtn">0</string>
+    <string name="homebtn">Home</string>
+    <string name="eqbtn">=</string>
+
 </resources>

@@ -22,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
         Intent CNSAct = new Intent(this,ConstraintActivity.class);
         startActivityForResult(CNSAct,1);
     }
+    public void GridLayoutClicked(View view){
+        Intent GRDAct = new Intent(this,GridActivity.class);
+        startActivityForResult(GRDAct,1);
+    }
     public void onActivityResult(int requestcode,int resultcode,Intent data){
         super.onActivityResult(requestcode,resultcode,data);
         if (requestcode==1){
