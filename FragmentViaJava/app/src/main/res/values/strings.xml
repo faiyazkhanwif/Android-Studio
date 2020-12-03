@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FragmentViaJava</string>
+    <string name="fdemo">Fragment Demo</string>
+    <string name="penguin">Penguin</string>
+    <string name="rabbit">rabbit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="penguindesc">penguin</string>
+    <string name="rabbitdesc">rabbit</string>
+</resources>
