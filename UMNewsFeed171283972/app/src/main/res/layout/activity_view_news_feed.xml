@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 171283972 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewNewsFeed"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/newsfeedtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/news_feed_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/highlightnews"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#69DC6E"
+        android:text="@string/highlightnews"
+        android:textColor="#494747"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infonews"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/listtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/the_complete_list"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <textView
+        android:id="@+id/mylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/backmenubtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:fontFamily="casual"
+        android:text="@string/back_to_main_menu"
+        app:backgroundTint="#4C4C4C"
+        android:gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<!-- 171283972 -->
+<resources>
+    <string name="app_name">UMNewsFeed[171283972]</string>
+    <string name="titletxt">UM NEWS FEED</string>
+    <string name="menutxt">Main Menu</string>
+    <string name="login">Login</string>
+    <string name="passwordhint">Password</string>
+    <string name="emailhint">Email</string>
+    <string name="submittxt">Submit Feed Back</string>
+    <string name="newsfeedtxt">View Newsfeed</string>
+    <string name="news_feed_title">UM NEWS FEED</string>
+    <string name="highlightnews">UM Researchers Develop CoSMoS: Monitoring System For Hospital Covid19 Management</string>
+    <string name="infonews">The selected news feed is for you:</string>
+    <string name="the_complete_list">The complete list</string>
+    <string name="back_to_main_menu">Back to main menu</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="we_are_good_at">We are good at:</string>
+    <string name="verify_feedback">Verify Feedback</string>
+    <string name="you_like_our_navigation">You like our [Navigation]</string>
+    <string name="there_is_still_room_of_improvement_ui_interface">There is still room of improvement [UI Interface]</string>
+    <string name="overall_performance_rate_4_points">Overall performance rate: 4 points</string>
+    <string name="yes_it_s_correct">Yes, IT\'S Correct</string>
+    <string name="i_have_second_thought_lets_go_back">I have second thought, lets go back</string>
+    <string-array name="feedback">
+        <item>UI Interface</item>
+        <item>Language</item>
+        <item>Navigation</item>
+        <item>Others</item>
+
+    </string-array>
+</resources>
